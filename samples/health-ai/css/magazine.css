@@ -5,6 +5,44 @@ body{
 	padding:0;
 }
 
+.made {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font: 14px arial;
+    line-height: 40px;
+    color: #666;
+    text-align: center;
+    z-index: 10;
+}
+
+.get-now {
+    text-decoration: none;
+    margin: 0;
+    padding: 5px 20px;
+    color: white;
+    text-shadow: 0 -1px 0 #3d561f;
+    border: 1px solid #4D682B;
+    background-color: #657948;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #82A353), color-stop(0.5, #62843C), color-stop(0.51, #5B7E32), color-stop(1, #476928));
+    background: -webkit-linear-gradient(top, #82A353 0%, #62843C 50%, #5B7E32 51%, #476928 100%);
+    background: -moz-linear-gradient(top, #82A353 0%, #62843C 50%, #5B7E32 51%, #476928 100%);
+    background: -ms-linear-gradient(top, #82A353 0%, #62843C 50%, #5B7E32 51%, #476928 100%);
+    background: -o-linear-gradient(top, #82A353 0%, #62843C 50%, #5B7E32 51%, #476928 100%);
+    background: linear-gradient(top, #82A353 0%, #62843C 50%, #5B7E32 51%, #476928 100%);
+    -webkit-box-shadow: inset 0 1px 1px #9ecf7a, inset 0 -1px 1px #355828;
+    -moz-box-shadow: inset 0 1px 1px #9ECF7A, inset 0 -1px 1px #355828;
+    -o-box-shadow: inset 0 1px 1px #9ECF7A, inset 0 -1px 1px #355828;
+    -ms-box-shadow: inset 0 1px 1px #9ECF7A, inset 0 -1px 1px #355828;
+    box-shadow: inset 0 1px 1px #9ecf7a, inset 0 -1px 1px #355828;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-radius: 20px;
+}
+
 .magazine-viewport .container{
 	position:absolute;
 	top:40%;
