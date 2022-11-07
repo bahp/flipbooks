@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  background: #fde3a7;
+  /*background: #fde3a7;*/
   background-image: url("./background.jpg");
   background-size: 100% 100%;
 }
